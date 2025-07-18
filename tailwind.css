@@ -1,0 +1,222 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --aurora-themewagon-com-plus-jakarta-sans-bold-font-family: "Plus Jakarta Sans",
+    Helvetica;
+  --aurora-themewagon-com-plus-jakarta-sans-bold-font-size: 12px;
+  --aurora-themewagon-com-plus-jakarta-sans-bold-font-style: normal;
+  --aurora-themewagon-com-plus-jakarta-sans-bold-font-weight: 700;
+  --aurora-themewagon-com-plus-jakarta-sans-bold-letter-spacing: 0px;
+  --aurora-themewagon-com-plus-jakarta-sans-bold-line-height: 14.399999618530273px;
+  --aurora-themewagon-com-plus-jakarta-sans-bold-upper-font-family: "Plus Jakarta Sans",
+    Helvetica;
+  --aurora-themewagon-com-plus-jakarta-sans-bold-upper-font-size: 12px;
+  --aurora-themewagon-com-plus-jakarta-sans-bold-upper-font-style: normal;
+  --aurora-themewagon-com-plus-jakarta-sans-bold-upper-font-weight: 700;
+  --aurora-themewagon-com-plus-jakarta-sans-bold-upper-letter-spacing: 0px;
+  --aurora-themewagon-com-plus-jakarta-sans-bold-upper-line-height: 14.399999618530273px;
+  --aurora-themewagon-com-plus-jakarta-sans-light-font-family: "Plus Jakarta Sans",
+    Helvetica;
+  --aurora-themewagon-com-plus-jakarta-sans-light-font-size: 12px;
+  --aurora-themewagon-com-plus-jakarta-sans-light-font-style: normal;
+  --aurora-themewagon-com-plus-jakarta-sans-light-font-weight: 300;
+  --aurora-themewagon-com-plus-jakarta-sans-light-letter-spacing: 0px;
+  --aurora-themewagon-com-plus-jakarta-sans-light-line-height: 14.399999618530273px;
+  --aurora-themewagon-com-plus-jakarta-sans-medium-font-family: "Plus Jakarta Sans",
+    Helvetica;
+  --aurora-themewagon-com-plus-jakarta-sans-medium-font-size: 12.800000190734863px;
+  --aurora-themewagon-com-plus-jakarta-sans-medium-font-style: normal;
+  --aurora-themewagon-com-plus-jakarta-sans-medium-font-weight: 500;
+  --aurora-themewagon-com-plus-jakarta-sans-medium-letter-spacing: 0px;
+  --aurora-themewagon-com-plus-jakarta-sans-medium-line-height: 15.359999656677246px;
+  --aurora-themewagon-com-plus-jakarta-sans-regular-font-family: "Plus Jakarta Sans",
+    Helvetica;
+  --aurora-themewagon-com-plus-jakarta-sans-regular-font-size: 12px;
+  --aurora-themewagon-com-plus-jakarta-sans-regular-font-style: normal;
+  --aurora-themewagon-com-plus-jakarta-sans-regular-font-weight: 400;
+  --aurora-themewagon-com-plus-jakarta-sans-regular-letter-spacing: 0px;
+  --aurora-themewagon-com-plus-jakarta-sans-regular-line-height: normal;
+  --aurora-themewagon-com-plus-jakarta-sans-semibold-font-family: "Plus Jakarta Sans",
+    Helvetica;
+  --aurora-themewagon-com-plus-jakarta-sans-semibold-font-size: 12px;
+  --aurora-themewagon-com-plus-jakarta-sans-semibold-font-style: normal;
+  --aurora-themewagon-com-plus-jakarta-sans-semibold-font-weight: 600;
+  --aurora-themewagon-com-plus-jakarta-sans-semibold-letter-spacing: 0px;
+  --aurora-themewagon-com-plus-jakarta-sans-semibold-line-height: 12px;
+  --aurora-themewagon-com-plus-jakarta-sans-semibold-upper-font-family: "Plus Jakarta Sans",
+    Helvetica;
+  --aurora-themewagon-com-plus-jakarta-sans-semibold-upper-font-size: 13px;
+  --aurora-themewagon-com-plus-jakarta-sans-semibold-upper-font-style: normal;
+  --aurora-themewagon-com-plus-jakarta-sans-semibold-upper-font-weight: 600;
+  --aurora-themewagon-com-plus-jakarta-sans-semibold-upper-letter-spacing: 0px;
+  --aurora-themewagon-com-plus-jakarta-sans-semibold-upper-line-height: 18.579999923706055px;
+  --aurora-themewagon-com-semantic-button-font-family: "Plus Jakarta Sans",
+    Helvetica;
+  --aurora-themewagon-com-semantic-button-font-size: 14px;
+  --aurora-themewagon-com-semantic-button-font-style: normal;
+  --aurora-themewagon-com-semantic-button-font-weight: 400;
+  --aurora-themewagon-com-semantic-button-letter-spacing: 0px;
+  --aurora-themewagon-com-semantic-button-line-height: 18px;
+  --aurora-themewagon-com-semantic-heading-3-font-family: "Plus Jakarta Sans",
+    Helvetica;
+  --aurora-themewagon-com-semantic-heading-3-font-size: 32px;
+  --aurora-themewagon-com-semantic-heading-3-font-style: normal;
+  --aurora-themewagon-com-semantic-heading-3-font-weight: 700;
+  --aurora-themewagon-com-semantic-heading-3-letter-spacing: 0px;
+  --aurora-themewagon-com-semantic-heading-3-line-height: 48px;
+  --aurora-themewagon-com-semantic-heading-4-font-family: "Plus Jakarta Sans",
+    Helvetica;
+  --aurora-themewagon-com-semantic-heading-4-font-size: 28px;
+  --aurora-themewagon-com-semantic-heading-4-font-style: normal;
+  --aurora-themewagon-com-semantic-heading-4-font-weight: 700;
+  --aurora-themewagon-com-semantic-heading-4-letter-spacing: 0px;
+  --aurora-themewagon-com-semantic-heading-4-line-height: 42px;
+  --aurora-themewagon-com-semantic-heading-6-font-family: "Plus Jakarta Sans",
+    Helvetica;
+  --aurora-themewagon-com-semantic-heading-6-font-size: 12px;
+  --aurora-themewagon-com-semantic-heading-6-font-style: normal;
+  --aurora-themewagon-com-semantic-heading-6-font-weight: 500;
+  --aurora-themewagon-com-semantic-heading-6-letter-spacing: 0px;
+  --aurora-themewagon-com-semantic-heading-6-line-height: 15.600000381469727px;
+  --aurora-themewagon-com-semantic-heading-6-title-font-family: "Plus Jakarta Sans",
+    Helvetica;
+  --aurora-themewagon-com-semantic-heading-6-title-font-size: 10px;
+  --aurora-themewagon-com-semantic-heading-6-title-font-style: normal;
+  --aurora-themewagon-com-semantic-heading-6-title-font-weight: 600;
+  --aurora-themewagon-com-semantic-heading-6-title-letter-spacing: 0px;
+  --aurora-themewagon-com-semantic-heading-6-title-line-height: 10px;
+  --aurora-themewagon-com-semantic-item-font-family: "Plus Jakarta Sans",
+    Helvetica;
+  --aurora-themewagon-com-semantic-item-font-size: 14px;
+  --aurora-themewagon-com-semantic-item-font-style: normal;
+  --aurora-themewagon-com-semantic-item-font-weight: 500;
+  --aurora-themewagon-com-semantic-item-letter-spacing: 0px;
+  --aurora-themewagon-com-semantic-item-line-height: 22.399999618530273px;
+  --aurora-themewagon-com-semantic-strong-font-family: "Plus Jakarta Sans",
+    Helvetica;
+  --aurora-themewagon-com-semantic-strong-font-size: 12px;
+  --aurora-themewagon-com-semantic-strong-font-style: normal;
+  --aurora-themewagon-com-semantic-strong-font-weight: 700;
+  --aurora-themewagon-com-semantic-strong-letter-spacing: 0px;
+  --aurora-themewagon-com-semantic-strong-line-height: 19.200000762939453px;
+  --aurorathemewagoncomblue-zodiac: rgba(10, 27, 48, 1);
+  --aurorathemewagoncombunker: rgba(6, 8, 10, 1);
+  --aurorathemewagoncomcabaret: rgba(216, 74, 99, 1);
+  --aurorathemewagoncomcabaret-15: rgba(216, 74, 99, 0.15);
+  --aurorathemewagoncomcabaret-25: rgba(216, 74, 99, 0.25);
+  --aurorathemewagoncomcardinal: rgba(207, 27, 43, 1);
+  --aurorathemewagoncomcatskill-white: rgba(235, 242, 245, 1);
+  --aurorathemewagoncomcod-gray-bunker: rgba(18, 18, 18, 1);
+  --aurorathemewagoncomcornflower-blue: rgba(88, 155, 243, 1);
+  --aurorathemewagoncomdeep-blush: rgba(225, 114, 134, 1);
+  --aurorathemewagoncomgallery: rgba(238, 238, 238, 1);
+  --aurorathemewagoncomgull-gray: rgba(156, 174, 184, 1);
+  --aurorathemewagoncomkeppel: rgba(53, 176, 132, 1);
+  --aurorathemewagoncomkeppel-15: rgba(53, 176, 132, 0.15);
+  --aurorathemewagoncomkeppel-25: rgba(53, 176, 132, 0.25);
+  --aurorathemewagoncommalibu: rgba(125, 177, 245, 1);
+  --aurorathemewagoncommariner: rgba(43, 113, 204, 1);
+  --aurorathemewagoncommatisse: rgba(36, 93, 168, 1);
+  --aurorathemewagoncommystic: rgba(219, 230, 235, 1);
+  --aurorathemewagoncomouter-space: rgba(38, 45, 48, 1);
+  --aurorathemewagoncomrajah: rgba(249, 182, 119, 1);
+  --aurorathemewagoncomresolution-blue: rgba(0, 36, 125, 1);
+  --aurorathemewagoncomshark: rgba(27, 33, 36, 1);
+  --aurorathemewagoncomsilver-tree: rgba(98, 194, 159, 1);
+  --aurorathemewagoncomslate-gray: rgba(119, 135, 143, 1);
+  --aurorathemewagoncomtan-hide: rgba(248, 162, 80, 1);
+  --aurorathemewagoncomtan-hide-15: rgba(248, 162, 80, 0.15);
+  --aurorathemewagoncomtan-hide-25: rgba(248, 162, 80, 0.25);
+  --aurorathemewagoncomtrout: rgba(77, 89, 94, 1);
+  --aurorathemewagoncomwoodsmoke: rgba(17, 20, 23, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
